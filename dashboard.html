@@ -17,6 +17,8 @@
       <div class="container">
         <button @click="goToCadastroAlunos">Cadastro de Alunos</button>
         <button @click="goToBuscaAlunos">Busca de Alunos</button>
+        <button @click="goToCadastroProf">Cadastro de Professor</button>
+        <button @click="goToBuscaProf">Busca de Professor</button>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
@@ -32,6 +34,12 @@
       },
       goToBuscaAlunos() {
         window.open("buscaAlunos.html", "_blank");
+      },
+      goToCadastroProf() {
+        window.open("cadastroProf.html", "_blank");
+      },
+      goToBuscaProf() {
+        window.open("buscaProf.html", "_blank");
       },
     },
   });
